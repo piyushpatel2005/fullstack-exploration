@@ -33,4 +33,5 @@ Now, change your text file to the following:
 Refresh the web browser and you will see the text `Hello World` displayed as a heading. 
 
 ![Hello World Heading](hello-world-heading.png "Hello World as a heading")
+
 The `<h1>` is called a tag in HTML (more on this later). It's used to define heading in HTML and browsers will display it as a larger font with bold text.
