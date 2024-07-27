@@ -22,6 +22,6 @@ Here is an example of how to use headings in HTML:
 
 The above code will display the following headings on the web page:
 
-![HTML Headings](images/html-headings.png "HTML Headings in browser")
+![HTML Headings](html-headings.png "HTML Headings in browser")
 
 As you can see, the `<h1>` tag is the largest and most important heading, and the `<h6>` tag is the smallest and least important heading. This styling is applied by web browsers by default. However, the main purpose of headings is to define the structure of the content on the page, not to style the content. For example, `<h1>` should be the main content of the web page and it must be just one in the whole page. This can have sections so there can be multiple `<h2>`s to define section headings. Similarly, each section can have subsections whose headings can be defined using `<h3>` tags. You can use CSS to style the headings as per your requirements.

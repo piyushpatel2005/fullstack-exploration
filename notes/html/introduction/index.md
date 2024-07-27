@@ -16,7 +16,7 @@ Hello World
 
 Save this file in your computer and open it with a web browser. You will see the text `Hello World` displayed on the web browser. This is the simplest HTML file you can create.
 
-![Hello World](images/hello-world.png "Hello World on web browser")
+![Hello World](hello-world.png "Hello World on web browser")
 
 > **Note:** HTML files are saved with the `.html` extension. This is the standard file extension for HTML files. By default your text editor might be saving files as `.txt` files. Make sure to change the file extension to `.html` when saving HTML files.
 
@@ -32,5 +32,5 @@ Now, change your text file to the following:
 
 Refresh the web browser and you will see the text `Hello World` displayed as a heading. 
 
-![Hello World Heading](images/hello-world-heading.png "Hello World as a heading")
+![Hello World Heading](hello-world-heading.png "Hello World as a heading")
 The `<h1>` is called a tag in HTML (more on this later). It's used to define heading in HTML and browsers will display it as a larger font with bold text.
