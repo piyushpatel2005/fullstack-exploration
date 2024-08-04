@@ -31,6 +31,8 @@ It's just one of the buzzwords used in tech industry to identify the coding lang
 22. [HTML Youtube Videos](youtube-videos/index.md)
 23. [HTML Canvas](canvas/index.md)
 24. [HTML GeoLocation](geolocation/index.md)
-25. [HTML Drag and Drop](drag-and-drop/index.md)
+25. [HTML Drag and Drop](drag-and-drop/index.md)                
 26. [HTML Web Storage](web-storage/index.md)
-27. 
+
+- HTML5 Semantic Tags (Main, Article, Section, Aside, Nav, Header, Footer)
+- Script Tag
