@@ -47,6 +47,20 @@ Then, you can run this file using below command.
 node hello.js
 ```
 
+You can alter the code in `console.log()` method as you like, but just make sure they are in double quotes.
+
+You can also type your name instead of "Hello, World!" and run the code. You will see your name printed in the console. You could combine multiple strings in different ways in the `console.log()` method. For example, you can use `+` operator to concatenate strings.
+
+```javascript
+console.log("Hello, " + "World!");
+```
+
+You could also type multiple strings inside the `console.log()` method separated by comma and it will produce the same result. Notice that when you use comma, it automatically adds a space between the strings.
+
+```javascript
+console.log("Hello", "World!");
+```
+
 ## Javascript comments
 
 Now, before we move any further, I want you to know about comments. Comments are used to explain the code and are ignored by the Javascript interpreter. You can write comments in Javascript using `//` for single line comments and `/* */` for multi-line comments. Below is an example of comments in Javascript.
@@ -61,4 +75,4 @@ console.log("Another print statement");
 
 When you modify the code in your script with above snippet, you will see that the comments are not printed in the console. This is because comments are ignored by the Javascript interpreter. They are used in the code to explain about the code. So, while you're learning Javascript, you can write your notes in the code using comments because you might forget what you've learned. So, comments will give you a quick reference to what each of the functions or statements do.
 
-In practice, the code will have comments only for complicated piece of logic. 
+In practice, the code will have comments only for complicated piece of logic.

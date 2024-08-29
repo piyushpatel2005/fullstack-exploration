@@ -5,4 +5,4 @@ This is a repository for exploring frontend technologies like HTML, CSS, Javascr
 - [HTML Tutorials](notes/html5/)
 - [CSS Tutorials](notes/css/)
 - [Javascript Tutorials](notes/javascript/)
-- [Bootstrap Tutorials](notes/bootstrap/)
+- [Bootstrap Tutorials](notes/bootstr0ap/)
