@@ -54,6 +54,30 @@ name = "Jenny";
 console.log(name); // Jenny
 ```
 
+### Problem with `var` keyword
+
+1. The problem with `var` keyword is that it allows you to re-declare the variable with the same name. This can have unintended consequences in your code which can be hard to debug.
+
+```javascript
+var x = 10;
+if (true) {
+    var x = 20;
+}
+
+console.log(x); // 20
+```
+
+In above code, the variable `x` is declared outside the `if` block, but still it's re-declared inside the `if` block. This is because `var` keyword does not have block scope. It has function scope. You will learn about scopes in upcoming lessons. With re-declaration of variable `x` inside the `if` block and the value of `x` is changed to 20. You might expect the value to be 10 but it's 20. To avoid such issues, it's recommended to use `let` or `const` keyword to declare variables.
+
+2. Another problem with `var` keyword is that it is hoisted. That is, you can access the variable before it is declared. This can lead to bugs in your code.
+
+```javascript
+console.log(x); // undefined
+var x = 10;
+```
+
+In above code, the variable `x` is accessed before it is declared. This will not throw an error but it will print `undefined`. This is because the variable `x` is hoisted to the top of the scope.
+
 ### Using `let` keyword
 
 The `let` keyword is used to declare variables that can be re-assigned. That is you can change the values of those variables. You cannot re-declare the variable with the same name. This is the preferred way to declare variables in Javascript.
