@@ -1,4 +1,4 @@
-# Javascript Loops
+# Javascript For Loops
 
 If you want to repeat specific part of the program multiple times, you can use loops. In JavaScript, there are three types of loops.
 

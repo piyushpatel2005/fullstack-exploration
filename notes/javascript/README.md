@@ -15,10 +15,14 @@ Javascript is a programming language that is used to make web pages interactive.
 - [Javascript Conditionals](conditionals/index.md)
 - Javascript calculator Project
 - [Javascript switch case](switch-case/index.md)
-- [Javascript While Loop](while-loop/index.md)
-- [Loops in Javascript](for-loop/index.md)
+- TODO: Add images for explanation of control flow for if else and loops
+- [While Loop](while-loop/index.md)
+- [For Loop](for-loops/index.md)
+- Project on Statistical Analysis using loops - Finding min, max, sum, average of numbers
 - [Break and Continue Statements](break-continue/index.md)
 - [Javascript Functions](functions/index.md)
+- [Nested Functions](nested-functions/index.md)
+- [Arrow Functions](arrow-functions/index.md)  
 - [Javascript Scope](scope/index.md)
 - [Javascript objects](objects/index.md)
 - [Javascript Arrays](arrays/index.md)
