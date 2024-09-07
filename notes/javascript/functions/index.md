@@ -113,9 +113,9 @@ console.log(`Alice's balance: ${sumAlice}`); // 140
 
 ## Functional Programming
 
-In Javascript, functions are first-class citizens. This means that functions can be assigned to variables, passed as parameters to other functions, and returned from other functions. This is a powerful feature of Javascript that allows you to write more flexible and reusable code.
+In Javascript, functions are first-class citizens. They are considered objects in Javascript language. This means that functions can be assigned to variables, passed as parameters to other functions, and returned from other functions. This is a powerful feature of Javascript that allows you to write more flexible and reusable code.
 
-## Function as a Value
+### Function as a Value
 
 You can assign a function to a variable and then call the function using that variable.
 
@@ -130,7 +130,7 @@ console.log(result); // 7
 
 ### Function as a Parameter
 
-You can also pass a function as a parameter to another function.
+You can also pass a function as a parameter to another function. This is also widely used in higher-order functions like `map`, `filter`, and `reduce`. These functions take another function as a parameter and apply that function to each element of an array. You will learn about these higher-order functions in the upcoming tutorials.
 
 ```javascript
 function calculate(a, b, operation) {
@@ -154,7 +154,7 @@ console.log(result); // 5
 
 ### Function as a Return Value
 
-You can also return a function from another function.
+You can also return a function from another function. 
 
 ```javascript
 function times(multiplier) {
@@ -169,5 +169,3 @@ let triple = times(3);
 console.log(double(5)); // 10
 console.log(triple(5)); // 15
 ```
-
-### 

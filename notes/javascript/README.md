@@ -3,6 +3,8 @@
 Javascript is a programming language that is used to make web pages interactive. It is a high-level, interpreted programming language that is used for full-stack web development. 
 
 ## Table of Contents
+
+### Javascript Basics
 - [Introduction to Javascript](introduction/index.md)
 - [Javascript Syntax](first-code/index.md)
 - [Web Interactivity](web-interactivity/index.md)
@@ -12,6 +14,7 @@ Javascript is a programming language that is used to make web pages interactive.
 - [Javascript Data Types](data-types/index.md)
 - [Static vs Dynamic Typing](static-dynamic-typing/index.md)
 - [Javascript Type Conversion](type-conversion/index.md)
+- [String Methods](string-methods/index.md)
 - [Javascript Conditionals](conditionals/index.md)
 - Javascript calculator Project
 - [Javascript switch case](switch-case/index.md)
@@ -22,41 +25,32 @@ Javascript is a programming language that is used to make web pages interactive.
 - [Break and Continue Statements](break-continue/index.md)
 - [Javascript Functions](functions/index.md)
 - [Nested Functions](nested-functions/index.md)
-- [Arrow Functions](arrow-functions/index.md)  
-- [Javascript Scope](scope/index.md)
+- [Javascript Closures](closures/index.md)
+- [Arrow Functions](arrow-functions/index.md)
+- [Higher Order Functions](higher-order-functions/index.md)
+- [Javascript Scopes](scopes/index.md)
 - [Javascript objects](objects/index.md)
 - [Javascript Arrays](arrays/index.md)
 - [Array Properties](array-properties/index.md)
 - [Array Methods](array-methods/index.md)
 - [Multi-dimensional Arrays](multi-dimensional-arrays/index.md)
-- [Javascript Destructuring](destructuring/index.md)
-- [Iterating Objects and Arrays](iterating/index.md)
-- [Nested Functions](nested-functions/index.md)
 - [Functional Javascript](functional-javascript/index.md)
-- [Javascript Date and Time](date-time/index.md)
+- [Javascript Destructuring](destructuring/index.md)
+- [Nested Functions](nested-functions/index.md)
+
+### Javascript Built-in Objects
 - [Javascript Math](math/index.md)
+- [Working with Date and Time](working-with-date-time/index.md)
 - [Javascript Regex](regex/index.md)
 - [Javascript Error Handling](error-handling/index.md)
+
+### Object Oriented Programming
 - [Javascript OOP](object-oriented-programming/index.md)
+
+### Javascript DOM Manipulation 
 - [Javascript DOM](dom/index.md)
 - [Javascript Events](events/index.md)
-- [Javascript Cookies](cookies/index.md)
-- [Javascript Local Storage](local-storage/index.md)
-- [Javascript Session Storage](session-storage/index.md)
-- [Javascript Web Storage](web-storage/index.md)
-- [Javascript JSON](json/index.md)
-- [Javascript AJAX](ajax/index.md)
-- [Javascript Promises](promises/index.md)
-- [Javascript Fetch API](fetch-api/index.md)
-- [Javascript Async Await](async-await/index.md)
-- [Javascript Web Workers](web-workers/index.md)
-- [Javascript Service Workers](service-workers/index.md)
-- [Javascript Web Sockets](web-sockets/index.md)
-- [Javascript WebRTC](webrtc/index.md)
-
-## DOM Manipulation
-
-- [DOM Manipulation](dom-manipulation/index.md)
+- - [DOM Manipulation](dom-manipulation/index.md)
 - [Creating Elements](creating-elements/index.md)
 - [Inserting Elements](inserting-elements/index.md)
 - [Removing Elements](removing-elements/index.md)
@@ -87,3 +81,16 @@ Javascript is a programming language that is used to make web pages interactive.
 - [Clipboard Events](clipboard-events/index.md)
 - [Touch Events](touch-events/index.md)
 - [Gesture Events](gesture-events/index.md)
+- [Javascript Cookies](cookies/index.md)
+- [Javascript Local Storage](local-storage/index.md)
+- [Javascript Session Storage](session-storage/index.md)
+- [Javascript Web Storage](web-storage/index.md)
+- [Javascript JSON](json/index.md)
+- [Javascript AJAX](ajax/index.md)
+- [Javascript Promises](promises/index.md)
+- [Javascript Fetch API](fetch-api/index.md)
+- [Javascript Async Await](async-await/index.md)
+- [Javascript Web Workers](web-workers/index.md)
+- [Javascript Service Workers](service-workers/index.md)
+- [Javascript Web Sockets](web-sockets/index.md)
+- [Javascript WebRTC](webrtc/index.md)

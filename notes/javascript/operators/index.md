@@ -10,10 +10,11 @@ There are different types of operators in Javascript. They are:
 2. Comparison Operators
 3. Logical Operators
 4. Assignment Operators
-5. Bitwise Operators
-6. Conditional (Ternary) Operator
-7. Unary Operators
-8. String Concatenation Operator
+5. `in` Operator
+6. Bitwise Operators
+7. Conditional (Ternary) Operator
+8. Unary Operators
+9. String Concatenation Operator
 
 ### Arithmetic Operators
 
@@ -126,6 +127,21 @@ x /= 2;
 console.log("After x /= 2, x =", x); // 13
 x %= 3;
 console.log("After x %= 3, x =", x); // 1
+```
+
+### `in` Operator
+
+The `in` operator returns `true` if the specified property is in the specified object or its prototype chain.
+
+```javascript
+let person = { name: "John", age: 30 };
+
+console.log("name" in person); // true
+console.log("age" in person); // true
+console.log("city" in person); // false
+
+let cities = ["New York", "London", "Paris"];
+"London" in cities; // false
 ```
 
 ### Bitwise Operators

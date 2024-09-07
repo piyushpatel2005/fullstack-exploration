@@ -92,3 +92,39 @@ person.greet(); // Hello, my name is John
 ```
 
 There are also built-in objects in Javascript which can be used to perform common operations. These include `Math`, `Date`, `Array`, and `String`. We will cover these objects in more detail in the upcoming lessons.
+
+## Iterating Over Object Properties
+
+### `for...in` Loop
+
+You can iterate over the properties of an object using a `for...in` loop. This loop iterates over the enumerable properties of an object.
+
+```javascript
+let person = {
+    name: 'John',
+    age: 31,
+    city: 'New York'
+};
+
+for (let key in person) {
+    console.log(key + ': ' + person[key]);
+}
+```
+
+### `forEach` Method
+
+You can also use the `Object.entries()` method to get an array of key-value pairs of an object.
+
+```javascript
+Object.entries(person).forEach(([key, value]) => {
+    console.log(key + ': ' + value);
+});
+```
+
+Alternatively, you can use `Object.keys()` and `Object.values()` methods to get an array of keys and values respectively.
+
+```javascript
+Object.keys(person).forEach(key => {
+    console.log(key + ': ' + person[key]);
+});
+```
