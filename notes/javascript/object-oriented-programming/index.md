@@ -101,6 +101,33 @@ john.greet(); // Hello, my name is John
 eva.greet(); // Hello, my name is Eva
 ```
 
-## Class Declaration
+Conventionally the parameters passed to the constructor function are the properties of the object. The properties are assigned to the object using the `this` keyword. 
 
-In ES6, the `class` keyword was introduced to create classes in Javascript. This way of programming creates a new class using the `class` keyword. This will also provide a more familiar syntax for developers coming from the background of other object-oriented programming langauges.
+If you want to define new methods, you can also define them as shown below.
+
+```javascript
+function Employee(name, age, position, salary) {
+    this.name = name;
+    this.age = age;
+    this.position = position;
+    this.salary = salary;
+
+    this.setAge = function (age) {
+        if (age >= 0 && age < 110) {
+            this.age = age;
+        } else {
+            console.log(`Age should be between 0 and 110 but provided ${age}`);
+        }
+    }
+}
+
+Employee.prototype.greet = function() {
+    console.log(`Hello, my name is ${this.name}`);
+}
+
+const eva = new Employee('Eva', 24, 'Designer', 40000);
+eva.setAge(124);
+console.log(eva.age); // 24
+eva.setAge(30);
+console.log(eva.age); // 30
+```

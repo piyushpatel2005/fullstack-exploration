@@ -46,11 +46,16 @@ Javascript is a programming language that is used to make web pages interactive.
 
 ### Object Oriented Programming
 - [Javascript OOP](object-oriented-programming/index.md)
+- [Javascript Classes](classes/index.md)
+- [Inheritance](inheritance/index.md)
+- [Data Encapsulation](data-encapsulation/index.md)
+- [Polymorphism](polymorphism/index.md)
+- [Abstraction](abstraction/index.md)
 
 ### Javascript DOM Manipulation 
 - [Javascript DOM](dom/index.md)
 - [Javascript Events](events/index.md)
-- - [DOM Manipulation](dom-manipulation/index.md)
+- [DOM Manipulation](dom-manipulation/index.md)
 - [Creating Elements](creating-elements/index.md)
 - [Inserting Elements](inserting-elements/index.md)
 - [Removing Elements](removing-elements/index.md)
