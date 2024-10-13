@@ -49,8 +49,6 @@ Javascript is a programming language that is used to make web pages interactive.
 - [Javascript Classes](classes/index.md)
 - [Inheritance](inheritance/index.md)
 - [Data Encapsulation](data-encapsulation/index.md)
-- [Polymorphism](polymorphism/index.md)
-- [Abstraction](abstraction/index.md)
 
 ### Javascript DOM Manipulation 
 - [Javascript DOM](dom/index.md)
