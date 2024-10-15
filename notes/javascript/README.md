@@ -41,7 +41,7 @@ Javascript is a programming language that is used to make web pages interactive.
 ### Javascript Built-in Objects
 - [Javascript Math](math/index.md)
 - [Working with Date and Time](working-with-dates/index.md)
-- [Javascript Regex](regex/index.md)
+- [Javascript Regex](regular-expressions/index.md)
 - [Javascript Error Handling](error-handling/index.md)
 
 ### Object Oriented Programming
@@ -49,6 +49,7 @@ Javascript is a programming language that is used to make web pages interactive.
 - [Javascript Classes](classes/index.md)
 - [Inheritance](inheritance/index.md)
 - [Data Encapsulation](data-encapsulation/index.md)
+- [Javascript Object Notation](json/index.md)
 
 ### Javascript DOM Manipulation 
 - [Javascript DOM](dom/index.md)
