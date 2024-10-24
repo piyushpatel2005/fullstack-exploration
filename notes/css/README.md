@@ -5,6 +5,8 @@ These are set of tutorials to learn CSS from scratch. CSS is an abbreviation for
 ## Table of Contents
 
 - [Introduction to CSS](introduction/index.md)
-- [CSS Syntax](syntax/index.md)
 - [CSS Selectors](selectors/index.md)
+- [How to apply CSS](how-to-apply-css/index.md)
 - [CSS Colors](colors/index.md)
+- [Background Color](background-color/index.md)
+- [Advanced CSS Selectors](advanced-selectors/index.md)
