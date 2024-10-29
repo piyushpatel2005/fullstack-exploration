@@ -18,12 +18,13 @@ Javascript is a programming language that is used to make web pages interactive.
 - [Javascript Conditionals](conditionals/index.md)
 - Javascript calculator Project
 - [Javascript switch case](switch-case/index.md)
-- TODO: Add images for explanation of control flow for if else and loops
+- TODO: Add images for explanation of control flow for if else and loops, recursion
 - [While Loop](while-loop/index.md)
 - [For Loop](for-loops/index.md)
 - Project on Statistical Analysis using loops - Finding min, max, sum, average of numbers
 - [Break and Continue Statements](break-continue/index.md)
 - [Javascript Functions](functions/index.md)
+- [Recursion](recursion/index.md)
 - [Nested Functions](nested-functions/index.md)
 - [Javascript Closures](closures/index.md)
 - [Arrow Functions](arrow-functions/index.md)
@@ -37,6 +38,10 @@ Javascript is a programming language that is used to make web pages interactive.
 - [Functional Javascript](functional-javascript/index.md)
 - [Javascript Destructuring](destructuring/index.md)
 - [Nested Functions](nested-functions/index.md)
+- [Asynchronous Javascript](asynchronous-javascript/index.md)
+- [Callback Functions](callback-functions/index.md)
+- [Javascript Promises](promises/index.md)
+- [Javascript Async Await](async-await/index.md)
 
 ### Javascript Built-in Objects
 - [Javascript Math](math/index.md)

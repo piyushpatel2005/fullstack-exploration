@@ -33,3 +33,6 @@ It's just one of the buzzwords used in tech industry to identify the coding lang
 24. [HTML5 Audio](audio/index.md)
 25. [HTML5 Semantic Tags](semantic-tags/index.md)
 26. [HTML5 Canvas](canvas/index.md)
+
+
+Now, that you're done with HTML lessons, it's time to apply some styles to your web pages. Move to the [CSS Tutorials](../css/README.md) to learn about Cascading Style Sheets.
