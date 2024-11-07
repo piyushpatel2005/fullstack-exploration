@@ -11,6 +11,7 @@ node_modules/
 resources/
 static/
 themes/
+learn-express/
 .gitmodules
 .hugo_build.lock
 hugo.toml

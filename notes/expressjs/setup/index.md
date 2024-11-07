@@ -112,7 +112,7 @@ You now have `nodemon` installed in your project, but in order to use this, you 
 ```json
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "dev": "nodemon index.js"
   },
 ```
 
@@ -125,7 +125,7 @@ With this, the `package.json` file looks like below.
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -140,4 +140,4 @@ With this, the `package.json` file looks like below.
 }
 ```
 
-With this, you can simply run `npm run start` command to start the server. This will run the command `nodemon index.js`. Check your browser and you should see the JSON response. Now, just modify the response message from `Hello World` to `Hi Everyone!` and save the file. You should see the changes reflected in the browser without having to restart the server. On the console, you can also see that the server has restarted automatically.
+With this, you can simply run `npm run dev` command to start the server. This will run the command `nodemon index.js`. Check your browser and you should see the JSON response. Now, just modify the response message from `Hello World` to `Hi Everyone!` and save the file. You should see the changes reflected in the browser without having to restart the server. On the console, you can also see that the server has restarted automatically.
