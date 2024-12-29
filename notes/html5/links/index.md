@@ -63,4 +63,10 @@ In below example, our home page is pointing to `google.com` website.
 <a href="https://www.google.com">Google</a>
 ```
 
+If you want the link to open in a new tab, you can add `target` attribute with value of `_blank`. This is usually used when you're linking to external websites.
+
+```html
+<a href="https://www.google.com" target="_blank">Google</a>
+```
+
 You'll see lot more examples in this tutorial. So, keep reading.
