@@ -49,6 +49,9 @@ Javascript is a programming language that is used to make web pages interactive.
 - [Javascript Regex](regular-expressions/index.md)
 - [Javascript Error Handling](error-handling/index.md)
 
+### Node.js
+- [Javascript Modules](modules/index.md)
+
 ### Object Oriented Programming
 - [Javascript OOP](object-oriented-programming/index.md)
 - [Javascript Classes](classes/index.md)
